@@ -52,17 +52,28 @@ section {
 .half-width {
 
     width: 40%px;
+    padding-left: 7%;
+    padding-right: 5%;
 
 }
 
 .half-width img {
 
     width: 60%;
+    padding-bottom: 15%;
 
 }
 
 .banner {
 
     background-image: url(design/top-banner.png);
+
+}
+
+.me {
+
+    background-image: url(design/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
