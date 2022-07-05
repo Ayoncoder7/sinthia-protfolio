@@ -38,10 +38,11 @@ body {
     font-weight: 800px;
 
 
+
 }
 
 
-section {
+.flexiable-container {
 
     display: flex;
 
@@ -54,6 +55,7 @@ section {
     width: 40%px;
     padding-left: 7%;
     padding-right: 5%;
+
 
 }
 
@@ -76,4 +78,32 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+
+.experiences-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+
+
+}
+
+
+.experiences {
+
+
+    background-image: url(design/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer p {
+
+
+    text-align: center;
+    padding-bottom: 10px;
 }
